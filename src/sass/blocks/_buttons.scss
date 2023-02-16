@@ -1,0 +1,21 @@
+.button {
+    width: 153px;
+    height: 32px;
+    background: #c70101;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: 0.5s all;
+    &:hover {
+        background: #5e0101;;
+    }
+    &_main {
+        width: 303px;
+        height: 54px;
+        margin-top: 65px;
+    }
+}

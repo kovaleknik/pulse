@@ -25,3 +25,43 @@
     font-weight: 700;
     font-style: normal;
     }
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/fonts/icomoon.eot?kztsye');
+    src:  url('../fonts/fonts/icomoon.eot?kztsye#iefix') format('embedded-opentype'),
+        url('../fonts/fonts/icomoon.ttf?kztsye') format('truetype'),
+        url('../fonts/fonts/icomoon.woff?kztsye') format('woff'),
+        url('../fonts/fonts/icomoon.svg?kztsye#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+    }
+    
+    [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .icon-facebook:before {
+    content: "\ea90";
+    color: #fff;
+    text-decoration: none;
+    text-decoration-style: none;
+    }
+    .icon-instagram:before {
+    content: "\ea92";
+    color: #fff;
+    }
+    .icon-pinterest:before {
+    content: "\ead1";
+    color: #fff;
+    }

@@ -8,7 +8,14 @@
         &__item {
             width: 211px;
         }
+    .carousel {
+        &__inner {
+            img {
+                width: 100px;
+            }
+        }
     }
+}
 }
 @media (max-width:576px) {
     .header {
